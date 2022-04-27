@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Bodoni:ital@1&display=swap');
+
+body {
+    background-color: rgb(199, 233, 183);
+ }
+
+ .heading {
+    text-align: center;
+ }
+
+ .playground-heading{
+    color: green;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 3rem;
+ }
+
+ .main {
+     border: 3px solid grey;
+     width: 55%;
+     margin: 1rem auto;
+    }
+
+ #red {
+     border-color: red;
+ }
+ #green {
+     border-color: green;
+ }
+ #blue {
+        border-color: blue;
+    }
+
+.main div {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 1rem auto;
+}
+
+ .footer {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+ }
